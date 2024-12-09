@@ -61,10 +61,22 @@ const namesarraysecond = [...namesarray , "arham"]
 console.log(namesarraysecond)
 
 // some of the main functions
+
+// map funtion
     //  for each element of the array that is in there 
     // we are going to exexute this funtion 
     // that we are going to define
 
 namesarray.map((incomming) => {console.log(incomming + " added")})
-.filter()
-.reduce()
+let mappedArray = namesarray.map((incomming) => {return "arham"})
+console.log(mappedArray)
+
+// filter funtion
+    // inherently used to to adit the preexisting array
+    //  things can be filterd out
+
+mappedArray = mappedArray.filter((incomming) => {
+    return incomming !== "arham"
+})
+
+console.log(mappedArray)
