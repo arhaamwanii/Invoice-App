@@ -28,12 +28,28 @@ IMAGE COMPONENT
 - you import this 
 - in order to use a external url to fetch images from you have to specify it there first
 - in nextjs.config.js
+- big image images comes in and shifts everything around
+- if you are using an external image you have to setup the image size yourself
+    - other wise it will cause content layout shift which is considered bad for seo 
 
 
+CLIENT AND SERVER COMPONENTS
+
+- get req to be made on the server component
+- everyting in the app directory is in the server component 
+
+- lets say you want to use a big dependency 
+- you can run that on the server and then only the end product will be dilived to the user
+
+by adding use client at the top 
+
+- by using use client all the dependencies and rendering is done on the client and not on the server 
 
 
+ENVIRONMENT VARIABLE'S
 
-
+- you put the environment variables in the .env or .env.local 
+- this is automatically included in the git ignore file 
 
 
 
@@ -50,3 +66,8 @@ CROWD TALK
 - then these comments will be sent to the ai model with a prompt who will analyze the comments-
 - then those replies will be recived 
 - another request will be made that will call the yt api and reply to the designed comment
+
+
+
+ARROW FUNCTIONS
+

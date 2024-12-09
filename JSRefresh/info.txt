@@ -1,0 +1,46 @@
+ARROW FUNTIONS 
+
+EXPORT
+- you when you import it in the other file you have to import it with a {}
+- single file many exports
+
+EXPORT DEFAULT
+- when you import this in the other file no {}
+- single file sigle export
+
+ANONYMOUS FUNTION
+
+-  {() => {}}
+
+SHORT CUT FOR IF-ELSE
+
+&&
+- if this condition is true then do this 
+-let name = condition > 10 && "arham" 
+- i.e if this conditon will be true then name will be set to said thing
+
+||
+- if the condion is not true then don't do this 
+- let name = condition > 10 || "arham"
+- if this conditon is true then don't make name = arham
+
+IF ELSE together
+
+name = age > 10 ? "arham" : "dayyan" ;
+
+let me = age > 18 ? "arham" : "dayyan" ;
+
+
+OBJECTS
+
+dictionary in python
+
+
+
+
+
+
+
+ 
+
+
