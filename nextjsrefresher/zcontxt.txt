@@ -1,0 +1,52 @@
+Server side rendering
+- Browser sends a request to the server
+- Server sends a request a request to fetch the files
+- Generates the html right there
+- Server then sends this html back to the browser where it is Shown
+
+
+CLIENT SIDE RENDERING
+- Browser sends a request to the Server
+- Serber fetches the files 
+- Sends the files directly without rendering them first 
+- Browser receives the  files and generates the html off of it 
+- And then shows the page
+
+DYNAMIC ROUTE
+- When the path of the url Is not specified
+- [id]
+- This is to be done inside of the folder where you want to make the dynamic route
+- Not-found.js page that will show up if they went to a non existent url
+
+LINK COMPONENT
+- when you have to dynamically render the page
+- don't have to fetch the files again 
+- This is used to prefetch code of the page/component you want to render 
+- it is like an anchor tag but it already had done the fetching preveting refetching  
+
+IMAGE COMPONENT
+- you import this 
+- in order to use a external url to fetch images from you have to specify it there first
+- in nextjs.config.js
+
+
+
+
+
+
+
+
+
+
+
+CROWD TALK 
+
+- landing page where you are shown the product
+    - this has the login or signup button
+    - contact details
+- create an account 
+- authorize your youtube 
+- choose the video then we will start fetching comments
+- then these comments will be sent to the ai model with a prompt who will analyze the comments-
+- then those replies will be recived 
+- another request will be made that will call the yt api and reply to the designed comment
